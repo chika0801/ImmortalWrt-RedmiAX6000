@@ -1,7 +1,6 @@
 Default login address: **192.168.10.1**, username: **root**, password: **password**.
 
 ```
-luci-app-cpufreq
 luci-app-firewall
 luci-app-opkg
 luci-app-ssr-plus
