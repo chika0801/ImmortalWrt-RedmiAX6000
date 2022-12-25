@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/chika0801/immortalwrtARM
+  REPO_URL: https://github.com/chika0801/ImmortalWrt-RedmiAX6000-Source
   REPO_BRANCH: mt7986
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
