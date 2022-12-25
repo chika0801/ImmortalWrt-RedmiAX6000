@@ -3,10 +3,10 @@ Default login address: **192.168.10.1**, username: **root**, password: **passwor
 ```
 luci-app-firewall
 luci-app-opkg
-luci-app-ssr-plus
-    |V2ray-core Selection (Xray-core)
+luci-app-ssr-plus (20221224)
+    |V2ray-core Selection (Xray-core 1.6.6-2)
     |Include ChinaDNS-NG
-    |Include Hysteria
+    |Include Hysteria 1.3.2
 luci-app-turboacc
     |FastPath Engine (Use flow offloading)
 luci-theme-argon
