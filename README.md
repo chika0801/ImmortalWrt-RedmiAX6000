@@ -1,7 +1,6 @@
 Default login address: **192.168.10.1**, username: **root**, password: **password**.
 
 ```
-autocore-arm
 luci-app-filetransfer
 luci-app-firewall
 luci-app-mtk
