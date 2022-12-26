@@ -1,3 +1,5 @@
+immortalwrt-mt798x项目介绍：https://cmi.hanwckf.top/p/immortalwrt-mt798x/
+
 地址: **192.168.10.1**<br>
 用户名: **root**<br>
 密码: **password**
