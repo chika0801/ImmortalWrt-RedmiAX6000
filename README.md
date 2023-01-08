@@ -10,8 +10,8 @@ luci-app-filetransfer
 luci-app-firewall
 luci-app-mtk
 luci-app-opkg
-luci-app-ssr-plus (20221230)
-    |V2ray-core Selection (Xray-core 1.7.0)
+luci-app-ssr-plus (20230108)
+    |V2ray-core Selection (Xray-core 1.7.2)
     |Include ChinaDNS-NG
     |Include Hysteria 1.3.2
 luci-theme-argon
