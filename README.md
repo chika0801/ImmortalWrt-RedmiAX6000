@@ -13,8 +13,8 @@ luci-app-mtk
 luci-app-opkg
 luci-app-ssr-plus 20230123
     |Include Xray-core 1.7.2
-    |Include Hysteria 1.3.2
     |Include ChinaDNS-NG
+    |Include Hysteria 1.3.2
 luci-theme-argon
 luci-theme-bootstrap
 ```
