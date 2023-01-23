@@ -15,7 +15,6 @@ luci-app-ssr-plus 20230123
     |Include Xray-core 1.7.2
     |Include Hysteria 1.3.2
     |Include ChinaDNS-NG
-luci-app-upnp
 luci-theme-argon
 luci-theme-bootstrap
 ```
