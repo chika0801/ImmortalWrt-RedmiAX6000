@@ -12,7 +12,7 @@ luci-app-firewall
 luci-app-mtk
 luci-app-opkg
 luci-app-ssr-plus 20230123
-    |Include Xray-core 1.7.2
+    |Include Xray-core 1.7.3(go 1.18.10)
     |Include ChinaDNS-NG
     |Include Hysteria 1.3.2
 luci-theme-argon
