@@ -11,9 +11,9 @@ luci-app-filetransfer
 luci-app-firewall
 luci-app-mtk
 luci-app-opkg
-luci-app-ssr-plus 20230206
-    |Include Hysteria 1.3.2
-    |Include Xray 1.7.3 (go 1.18.10)
+luci-app-ssr-plus 20230209
+    |Include Hysteria 1.3.3
+    |Include Xray 1.7.5 (go 1.18.10)
 luci-theme-argon
 luci-theme-bootstrap
 ```
