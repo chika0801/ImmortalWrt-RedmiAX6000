@@ -71,6 +71,13 @@ jobs:
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
+    - name: Add luci-app-xray
+      run: |
+        cd openwrt
+        mkdir -p ./package/extra
+        git clone -b master --single-branch https://github.com/yichya/luci-app-xray.git luci-app-xray
+        mv ./luci-app-xray ./package/extra
+
     - name: Del packages
       run: |
         cd openwrt
