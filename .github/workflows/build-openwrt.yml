@@ -72,8 +72,8 @@ jobs:
       run: |
         cd openwrt
         ./scripts/feeds update -a
-        rm -rf feeds/packages/lang/golang
-        svn co https://github.com/openwrt/packages/branches/openwrt-22.03/lang/golang/golang feeds/packages/lang/golang
+        rm -rf feeds/packages/lang/golang/golang
+        svn co https://github.com/openwrt/packages/branches/openwrt-22.03/lang/golang/golang feeds/packages/lang/golang/golang
         rm -rf feeds/packages/net/miniupnpd
         svn co https://github.com/immortalwrt/packages/branches/openwrt-18.06/net/miniupnpd feeds/packages/net/miniupnpd
 
