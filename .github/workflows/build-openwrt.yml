@@ -69,7 +69,13 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     - name: Update feeds
-      run: cd openwrt && ./scripts/feeds update -a && ./scripts/feeds install -a -p languages
+      run: |
+        cd openwrt
+        ./scripts/feeds update -a
+        rm -rf feeds/packages/lang/golang
+        svn co https://github.com/openwrt/packages/branches/openwrt-22.03/lang/golang/golang feeds/packages/lang/golang
+        rm -rf feeds/packages/net/miniupnpd
+        svn co https://github.com/immortalwrt/packages/branches/openwrt-18.06/net/miniupnpd feeds/packages/net/miniupnpd
 
     - name: Del packages
       run: |
