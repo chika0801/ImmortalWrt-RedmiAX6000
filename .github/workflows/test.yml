@@ -113,7 +113,7 @@ jobs:
         mv ./helloworld/* ./feeds/packages/net
         rm -rf ./helloworld
 
-    - name: Update packages luci-app-passwall
+    - name: Update luci-app-passwall
       run: |
         cd openwrt
         git clone -b luci --single-branch https://github.com/xiaorouji/openwrt-passwall.git passwall
