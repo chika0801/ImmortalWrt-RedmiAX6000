@@ -11,9 +11,13 @@ luci-app-filetransfer
 luci-app-firewall
 luci-app-mtk
 luci-app-opkg
+luci-app-passwall
+    |Iptables Transparent Proxy
 luci-app-ssr-plus 20230310
-    |Include Hysteria 1.3.3
     |Include Xray 1.8.0 (go 1.19.6)
+    |Include Hysteria 1.3.3
+    |Include ChinaDNS-NG
+luci-app-upnp
 luci-theme-argon
 luci-theme-bootstrap
 ```
